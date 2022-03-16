@@ -34,14 +34,14 @@ class Result(Exam):  # class result
 
 
 if __name__ == '__main__':
-    student = Student(1, 'RAVI')
+    student = Student(1, 'Prachi')
     student.display()
     print()
 
-    exam = Exam(2, 'KEYUR', [20, 25, 18])
+    exam = Exam(2, 'Shruti', [20, 25, 18])
     exam.display()
     print()
 
-    result = Result(3, 'SAVAN', [11, 11, 13])
+    result = Result(3, 'Disha', [11, 11, 13])
     result.display()
     print()
